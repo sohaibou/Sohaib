@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Wachtwoord vergeten</title>
+	<title>Lost password</title>
 </head>
-<body>
+<body>	
 	<form>
-		E-mail <input type="email" name="email">
-		<button> Voltooien </button>
+		What is your email address? <input type="email" name="email">
+		<button>Submit</button>
 	</form>
 </body>
 </html>

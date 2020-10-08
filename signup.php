@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Registeren</title>
+	<title>Sign in</title>
 </head>
 <body>
 	<form>
-		Voornaam <input type="name" name="first name" required><hr>
-		Tussenvoegsels <input type="name" name="inserts"><hr>
-		Achternaam <input type="name" name="last name" required><hr>
-		E-mail <input type="email" name="email" required><hr>
-		Gebruikersnaam <input type="username" name="username" required><hr>
-		Wachtwoord <input type="password" name="password" required><hr>
-		Herhaal wachtwoord <input type="password" name="password" required><hr>
-		<button>Registeren</button><hr>
+		First name:			<input type="text" name="fname" required><br>
+		Insertion:			<input type="text" name="insertion" required><br>
+		Last name: 			<input type="text" name="lname" required><br>
+		Email address:		<input type="email" name="email" required><br>
+		Username:			<input type="text" name="username" required><br>
+		Password:			<input type="username" name="uname" required><br>
+		Repeat password:	<input type="password" name="uname" required><br>
+		<button>Sign up!</button>
+		<a href="index.php">Cancel</a>
 	</form>
 </body>
 </html>
